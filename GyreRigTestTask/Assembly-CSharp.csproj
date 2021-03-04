@@ -74,6 +74,7 @@
     <Compile Include="Assets\Skripts\Task2\GameController.cs" />
     <Compile Include="Assets\Skripts\Task2\IMove.cs" />
     <Compile Include="Assets\Skripts\Task2\UISkreenFactory.cs" />
+    <Compile Include="Assets\Skripts\Task3\Task3.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Projects/GyreRigTestTask/GyreRigTestTask/GyreRigTestTask/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
