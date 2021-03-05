@@ -3,8 +3,7 @@
     public class Factory
     {
         private UISkreenFactory _skreenFactory;
-        private ButtonController _buttonController;
-        //private 
+        private readonly ButtonController _buttonController; 
         public Factory()
         {
             _skreenFactory = new UISkreenFactory();

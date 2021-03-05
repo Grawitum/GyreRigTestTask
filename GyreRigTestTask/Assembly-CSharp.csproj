@@ -67,6 +67,7 @@
     <Compile Include="Assets\Skripts\Task1\Factory.cs" />
     <Compile Include="Assets\Skripts\Task1\GameController.cs" />
     <Compile Include="Assets\Skripts\Task1\UISkreenFactory.cs" />
+    <Compile Include="Assets\Skripts\Task1\Сounter.cs" />
     <Compile Include="Assets\Skripts\Task2\ButtonController.cs" />
     <Compile Include="Assets\Skripts\Task2\CubeController.cs" />
     <Compile Include="Assets\Skripts\Task2\CubeSpawnerController.cs" />

@@ -4,8 +4,8 @@ namespace Task1
 {
     public class ButtonController
     {
-        private int _click = 0;
         private Text _text;
+        private Counter _counter;
         public ButtonController(UISkreenFactory skreen)
         {
             _text = skreen.Text;
@@ -15,8 +15,11 @@ namespace Task1
 
         private void ButtonEvent()
         {
-            _click++;
-            _text.text = $"Вынажали {_click} раз";
+            if(_counter == null)
+            {
+                _counter = new Counter(_text);
+            }
+            _counter.Act();
         }
     }
 }

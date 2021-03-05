@@ -7,9 +7,9 @@ namespace Task2
 {
     public class CubeSpawnerController : MonoBehaviour
     {
-        public int speedSpawn = 7;
-        public int speedMove;
-        public int distance;
+        [HideInInspector] public int speedSpawn;
+        [HideInInspector] public int speedMove;
+        [HideInInspector] public int distance;
 
         void Start()
         {

@@ -6,7 +6,6 @@ namespace Task2
     public class ButtonController
     {
         private UISkreenFactory _skreen;
-        //private CubeSpawnerController cubeSpawnerController;
         private int _speedSpawn;
         private int _speedMove;
         private int _distance;

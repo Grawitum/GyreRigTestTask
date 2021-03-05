@@ -6,8 +6,8 @@ namespace Task2
 {
     public class CubeController : MonoBehaviour, IMove
     {
-        public int speed;
-        public int moveDistance;
+        [HideInInspector] public int speed;
+        [HideInInspector] public int moveDistance;
         private Vector3 _point;
         void Start()
         {
@@ -20,7 +20,6 @@ namespace Task2
             this.gameObject.transform.position += Vector3.forward * speed;
             if (this.gameObject.transform.position == _point)
             {
-                //Debug.Log("1");
                 Destroy(gameObject);
             }
         }

@@ -7,7 +7,6 @@ namespace Task2
     public class GameController : MonoBehaviour
     {
         private Factory _factory;
-        // Start is called before the first frame update
         void Awake()
         {
             _factory = new Factory();
